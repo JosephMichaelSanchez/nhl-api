@@ -4,16 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
+import { store } from './app/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const store = configureStore({
-  reducers: {
-    // Define a top-level state field named `todos`, handled by `todosReducer`
-    // todos: todosReducer,
-    // filters: filtersReducer
-  }
-});
 root.render(
   <React.StrictMode>
     <Provider store={store}>
