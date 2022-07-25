@@ -1,10 +1,10 @@
 import './App.css';
-import Counter from './features/counter/Counter'
+import TeamsList from './features/teamslist/TeamsList';
 
 function App() {
   return (
     <>
-      <Counter />
+      <TeamsList />
     </>
   );
 }
